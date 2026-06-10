@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Budget Splitter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Mini Budget Splitter</h1>
+
+    <label>Total Bill</label>
+    <input id="billInput" type="number" placeholder="Enter amount">
+
+    <label>Number of People</label>
+    <input id="peopleInput" type="number" placeholder="2">
+
+    <label>Tip Percentage</label>
+    <input id="tipInput" type="number" placeholder="10">
+
+    <button onclick="calculateSplit()">Calculate</button>
+
+    <div class="result" id="resultBox">
+        Per person: $0.00
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
